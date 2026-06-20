@@ -1,0 +1,6 @@
+id_departement,nom_departement,batiment_departement,etage_departement
+1,Cardiologie,A,2
+2,Pediatrie,B,1
+3,Urgences,C,RDC
+4,Neurologie,A,3
+5,Orthopedie,D,2

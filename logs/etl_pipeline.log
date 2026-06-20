@@ -1,0 +1,82 @@
+2026-06-18 21:58:51,831 - database.db_connect - db_connect.py - succesfully connected to the database : hospital
+2026-06-18 21:58:51,834 - __main__ - main.py - debut de la pipeline
+2026-06-18 21:59:39,806 - database.db_connect - db_connect.py - succesfully connected to the database : hospital
+2026-06-18 21:59:39,807 - __main__ - main.py - debut de la pipeline
+2026-06-18 21:59:39,821 - pipeline.extract - extract.py - the DataFrame named dim_date of 30
+2026-06-18 21:59:39,823 - pipeline.extract - extract.py - the DataFrame named dim_departement of 5
+2026-06-18 21:59:39,825 - pipeline.extract - extract.py - the DataFrame named dim_medecin of 8
+2026-06-18 21:59:39,826 - pipeline.extract - extract.py - the DataFrame named dim_medicament of 10
+2026-06-18 21:59:39,827 - pipeline.extract - extract.py - the DataFrame named dim_patient of 10
+2026-06-18 21:59:39,828 - pipeline.extract - extract.py - the DataFrame named fact_admission of 20
+2026-06-18 21:59:39,828 - pipeline.extract - extract.py - the DataFrame named fact_ordonnance of 30
+2026-06-18 21:59:39,830 - pipeline.transform - transform.py - transformation of the dataframe named : dim_date , initial size : 30
+2026-06-18 21:59:39,848 - pipeline.transform - transform.py - the df : dim_date was transformed and ended up with 30 rows
+2026-06-18 21:59:39,848 - pipeline.transform - transform.py - transformation of the dataframe named : dim_departement , initial size : 5
+2026-06-18 21:59:39,857 - pipeline.transform - transform.py - the df : dim_departement was transformed and ended up with 5 rows
+2026-06-18 21:59:39,857 - pipeline.transform - transform.py - transformation of the dataframe named : dim_medecin , initial size : 8
+2026-06-18 21:59:39,861 - pipeline.transform - transform.py - the df : dim_medecin was transformed and ended up with 8 rows
+2026-06-18 21:59:39,862 - pipeline.transform - transform.py - transformation of the dataframe named : dim_medicament , initial size : 10
+2026-06-18 21:59:39,864 - pipeline.transform - transform.py - the df : dim_medicament was transformed and ended up with 10 rows
+2026-06-18 21:59:39,864 - pipeline.transform - transform.py - transformation of the dataframe named : dim_patient , initial size : 10
+2026-06-18 21:59:39,876 - pipeline.transform - transform.py - the df : dim_patient was transformed and ended up with 10 rows
+2026-06-18 21:59:39,876 - pipeline.transform - transform.py - transformation of the dataframe named : fact_admission , initial size : 20
+2026-06-18 21:59:39,881 - pipeline.transform - transform.py - the df : fact_admission was transformed and ended up with 20 rows
+2026-06-18 21:59:39,881 - pipeline.transform - transform.py - transformation of the dataframe named : fact_ordonnance , initial size : 30
+2026-06-18 21:59:39,883 - pipeline.transform - transform.py - the df : fact_ordonnance was transformed and ended up with 30 rows
+2026-06-18 21:59:39,883 - pipeline.load - load.py - injection dans la table SQL : dim_date
+2026-06-18 21:59:39,992 - pipeline.load - load.py - erreur lors du loading dans : dim_date
+2026-06-18 22:01:48,334 - database.db_connect - db_connect.py - succesfully connected to the database : hospital
+2026-06-18 22:01:48,334 - __main__ - main.py - debut de la pipeline
+2026-06-18 22:01:48,339 - pipeline.extract - extract.py - the DataFrame named dim_date of 30
+2026-06-18 22:01:48,340 - pipeline.extract - extract.py - the DataFrame named dim_departement of 5
+2026-06-18 22:01:48,341 - pipeline.extract - extract.py - the DataFrame named dim_medecin of 8
+2026-06-18 22:01:48,342 - pipeline.extract - extract.py - the DataFrame named dim_medicament of 10
+2026-06-18 22:01:48,342 - pipeline.extract - extract.py - the DataFrame named dim_patient of 10
+2026-06-18 22:01:48,343 - pipeline.extract - extract.py - the DataFrame named fact_admission of 20
+2026-06-18 22:01:48,344 - pipeline.extract - extract.py - the DataFrame named fact_ordonnance of 30
+2026-06-18 22:01:48,344 - pipeline.transform - transform.py - transformation of the dataframe named : dim_date , initial size : 30
+2026-06-18 22:01:48,353 - pipeline.transform - transform.py - the df : dim_date was transformed and ended up with 30 rows
+2026-06-18 22:01:48,354 - pipeline.transform - transform.py - transformation of the dataframe named : dim_departement , initial size : 5
+2026-06-18 22:01:48,358 - pipeline.transform - transform.py - the df : dim_departement was transformed and ended up with 5 rows
+2026-06-18 22:01:48,358 - pipeline.transform - transform.py - transformation of the dataframe named : dim_medecin , initial size : 8
+2026-06-18 22:01:48,362 - pipeline.transform - transform.py - the df : dim_medecin was transformed and ended up with 8 rows
+2026-06-18 22:01:48,362 - pipeline.transform - transform.py - transformation of the dataframe named : dim_medicament , initial size : 10
+2026-06-18 22:01:48,365 - pipeline.transform - transform.py - the df : dim_medicament was transformed and ended up with 10 rows
+2026-06-18 22:01:48,365 - pipeline.transform - transform.py - transformation of the dataframe named : dim_patient , initial size : 10
+2026-06-18 22:01:48,371 - pipeline.transform - transform.py - the df : dim_patient was transformed and ended up with 10 rows
+2026-06-18 22:01:48,372 - pipeline.transform - transform.py - transformation of the dataframe named : fact_admission , initial size : 20
+2026-06-18 22:01:48,375 - pipeline.transform - transform.py - the df : fact_admission was transformed and ended up with 20 rows
+2026-06-18 22:01:48,376 - pipeline.transform - transform.py - transformation of the dataframe named : fact_ordonnance , initial size : 30
+2026-06-18 22:01:48,378 - pipeline.transform - transform.py - the df : fact_ordonnance was transformed and ended up with 30 rows
+2026-06-18 22:01:48,378 - pipeline.load - load.py - injection dans la table SQL : dim_date
+2026-06-18 22:01:48,396 - pipeline.load - load.py - erreur lors du loading dans : dim_date
+2026-06-18 22:02:22,827 - database.db_connect - db_connect.py - succesfully connected to the database : hospital
+2026-06-18 22:02:22,828 - __main__ - main.py - debut de la pipeline
+2026-06-18 22:02:22,833 - pipeline.extract - extract.py - the DataFrame named dim_date of 30
+2026-06-18 22:02:22,834 - pipeline.extract - extract.py - the DataFrame named dim_departement of 5
+2026-06-18 22:02:22,835 - pipeline.extract - extract.py - the DataFrame named dim_medecin of 8
+2026-06-18 22:02:22,835 - pipeline.extract - extract.py - the DataFrame named dim_medicament of 10
+2026-06-18 22:02:22,836 - pipeline.extract - extract.py - the DataFrame named dim_patient of 10
+2026-06-18 22:02:22,837 - pipeline.extract - extract.py - the DataFrame named fact_admission of 20
+2026-06-18 22:02:22,838 - pipeline.extract - extract.py - the DataFrame named fact_ordonnance of 30
+2026-06-18 22:02:22,838 - pipeline.transform - transform.py - transformation of the dataframe named : dim_date , initial size : 30
+2026-06-18 22:02:22,847 - pipeline.transform - transform.py - the df : dim_date was transformed and ended up with 30 rows
+2026-06-18 22:02:22,847 - pipeline.transform - transform.py - transformation of the dataframe named : dim_departement , initial size : 5
+2026-06-18 22:02:22,852 - pipeline.transform - transform.py - the df : dim_departement was transformed and ended up with 5 rows
+2026-06-18 22:02:22,852 - pipeline.transform - transform.py - transformation of the dataframe named : dim_medecin , initial size : 8
+2026-06-18 22:02:22,856 - pipeline.transform - transform.py - the df : dim_medecin was transformed and ended up with 8 rows
+2026-06-18 22:02:22,856 - pipeline.transform - transform.py - transformation of the dataframe named : dim_medicament , initial size : 10
+2026-06-18 22:02:22,859 - pipeline.transform - transform.py - the df : dim_medicament was transformed and ended up with 10 rows
+2026-06-18 22:02:22,859 - pipeline.transform - transform.py - transformation of the dataframe named : dim_patient , initial size : 10
+2026-06-18 22:02:22,865 - pipeline.transform - transform.py - the df : dim_patient was transformed and ended up with 10 rows
+2026-06-18 22:02:22,866 - pipeline.transform - transform.py - transformation of the dataframe named : fact_admission , initial size : 20
+2026-06-18 22:02:22,869 - pipeline.transform - transform.py - the df : fact_admission was transformed and ended up with 20 rows
+2026-06-18 22:02:22,869 - pipeline.transform - transform.py - transformation of the dataframe named : fact_ordonnance , initial size : 30
+2026-06-18 22:02:22,871 - pipeline.transform - transform.py - the df : fact_ordonnance was transformed and ended up with 30 rows
+2026-06-18 22:02:22,872 - pipeline.load - load.py - injection dans la table SQL : dim_date
+2026-06-18 22:02:22,893 - pipeline.load - load.py - injection dans la table SQL : dim_departement
+2026-06-18 22:02:22,899 - pipeline.load - load.py - injection dans la table SQL : dim_medecin
+2026-06-18 22:02:22,905 - pipeline.load - load.py - injection dans la table SQL : dim_medicament
+2026-06-18 22:02:22,910 - pipeline.load - load.py - injection dans la table SQL : dim_patient
+2026-06-18 22:02:22,917 - pipeline.load - load.py - injection dans la table SQL : fact_admission
+2026-06-18 22:02:22,924 - pipeline.load - load.py - injection dans la table SQL : fact_ordonnance

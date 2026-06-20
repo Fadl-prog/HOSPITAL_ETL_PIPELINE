@@ -1,0 +1,11 @@
+id_patient,prenom_patient,nom_patient,age_patient,sexe_patient,num_dossier_patient,ville_patient
+1,Youssef,El Amrani,34,M,DOS001,Casablanca
+2,Sara,Bennani,28,F,DOS002,Rabat
+3,Omar,Alaoui,45,M,DOS003,Marrakech
+4,Lina,Tazi,19,F,DOS004,Fes
+5,Karim,Idrissi,52,M,DOS005,Tanger
+6,Salma,Chraibi,31,F,DOS006,Agadir
+7,Mehdi,Ouazzani,40,M,DOS007,Meknes
+8,Nadia,Lahlou,26,F,DOS008,Oujda
+9,Ayoub,Rami,37,M,DOS009,Settat
+10,Hajar,El Fassi,60,F,DOS010,Kenitra
