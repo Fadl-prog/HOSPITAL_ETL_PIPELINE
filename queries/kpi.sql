@@ -1,12 +1,6 @@
 USE hospital;
 
-/* le taux de la couverture commercial(combien de clients combien a visite par exemple)
-/taux de realisation de lobjectif brut/net(vente brut ,resiliation brut , trouver le net)
-/le taux de penetration du marche (ta part de marche par rapport aux concurrents)
-/le taux de retention client (les clients quon a retenu de resilier)
-/parc : le nombre de contrats actifs
-/taux de concretisation de contrats
-(Pour Maroc Telecom par exemple d'apres ma mere)*/ 
+
 
 /* nombre total d'admission */
 
