@@ -112,3 +112,26 @@ DB_NAME=hospital
 ```bash
 python main.py
 ```
+## 🐳 Conteneurisation avec Docker
+
+Le projet est entièrement conteneurisé à l'aide de **Docker** et **Docker Compose**. Cela permet d'isoler l'application et de s'assurer que le pipeline ETL et sa base de données MySQL s'exécutent de la même manière sur n'importe quelle machine.
+
+L'architecture se compose de deux services :
+1. `hospital-pipeline` : L'application Python (basée sur `python:3.14-slim`) qui exécute le script ETL.
+2. `db_mysql` : La base de données MySQL (v8.0) qui stocke les données, initialisée automatiquement avec le schéma SQL.
+
+
+```bash
+docker compose up --build
+```
+
+## 📂 Persistance et Initialisation des données
+Persistance : Un volume Docker nommé mysql_data est configuré pour éviter la perte des données de la base MySQL à la fermeture des conteneurs.
+
+Initialisation : Au premier lancement, le script ./database/schema.sql est automatiquement exécuté pour créer la structure de la base de données.
+
+Ports : La base de données MySQL est accessible depuis votre machine locale sur le port 3307.
+
+
+---
+
