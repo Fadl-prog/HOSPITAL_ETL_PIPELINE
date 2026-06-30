@@ -5,7 +5,7 @@ class ETLLogger :
     @staticmethod
     def get_logger(name : str) -> logging.Logger:
         logger = logging.getLogger(name)
-
+  
         if not logger.handlers:
             logger.setLevel(logging.DEBUG)
             base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

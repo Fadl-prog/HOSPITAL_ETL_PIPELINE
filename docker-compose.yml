@@ -1,0 +1,24 @@
+  services:
+    hospital-pipeline:
+      build: .  
+      container_name: hospital-pipeline
+      env_file:
+        - .env
+      depends_on:
+        - db_mysql
+    
+    db_mysql:
+      image: mysql:8.0
+      container_name: mysql-container
+      ports:
+        - "3307:3306"
+      env_file:
+        - .env
+      environment:
+        - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+        - MYSQL_DATABASE=${DB_NAME}
+      volumes:
+        - mysql_data:/var/lib/mysql
+        - ./database/schema.sql:/docker-entrypoint-initdb.d/init.sql
+  volumes:
+    mysql_data:

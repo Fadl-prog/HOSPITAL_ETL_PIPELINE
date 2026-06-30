@@ -131,7 +131,3 @@ Persistance : Un volume Docker nommé mysql_data est configuré pour éviter la 
 Initialisation : Au premier lancement, le script ./database/schema.sql est automatiquement exécuté pour créer la structure de la base de données.
 
 Ports : La base de données MySQL est accessible depuis votre machine locale sur le port 3307.
-
-
----
-

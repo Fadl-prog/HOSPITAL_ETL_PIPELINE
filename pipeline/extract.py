@@ -23,7 +23,7 @@ class CSVExtractor :
             if(extension.lower() != ".csv"):
                 logger.error(f"the file is a {extension} file : {ValueError} ")
                 raise ValueError("the file has to be a .csv")
-            
+             
             try:
                 df_name = os.path.basename(base_path)
                 df = pd.read_csv(path,encoding='utf-8')  
