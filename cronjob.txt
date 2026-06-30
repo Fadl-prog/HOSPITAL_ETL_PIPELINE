@@ -1,0 +1,2 @@
+
+0 2 * * * cd /chemin/vers/Hospital_pipeline && /usr/bin/docker compose up --build -d
